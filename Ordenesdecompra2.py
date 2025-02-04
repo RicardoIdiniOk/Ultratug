@@ -1,12 +1,3 @@
-echo "# Ultratug" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/RicardoIdiniOk/Ultratug.git
-git push -u origin main
-
-!pip install streamlit pandas
 import streamlit as st
 import pandas as pd
 import os
@@ -52,5 +43,3 @@ st.markdown("4️⃣ Los resultados se mostrarán en una tabla interactiva.")
 
 st.markdown("---")
 st.markdown("📌 **Desarrollado por [Tu Empresa]**")
-
-
